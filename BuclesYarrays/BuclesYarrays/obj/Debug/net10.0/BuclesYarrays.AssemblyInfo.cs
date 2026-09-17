@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BuclesYarrays")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7729c8b5ee749d1f114b1ecc846537ed3edbd279")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce1e62acc956e2c72d8b741319028d8967b987b4")]
 [assembly: System.Reflection.AssemblyProductAttribute("BuclesYarrays")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BuclesYarrays")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

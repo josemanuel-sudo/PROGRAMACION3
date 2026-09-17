@@ -536,9 +536,21 @@ for (int numero = 0; numero  <= 10; numero++)
  // EJERCCIO 22
 
 
-
+/*
 for (int i = 10; i  >= 1; i--) 
 { 
     Console.WriteLine(i);
 }
+*/
 
+//EJERCICIO 23
+
+//PEDIMOS UN NUMERO
+
+Console.Write("Introduce un número: ");
+int numero = Convert.ToInt32(Console.ReadLine());
+
+for (int i = 1; i <= 10; i++)
+{
+    Console.WriteLine(numero + " x " + i + " = " + (numero * i));
+}
