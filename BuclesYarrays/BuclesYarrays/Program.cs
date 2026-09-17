@@ -469,12 +469,24 @@ Console.WriteLine(resultado);
 
 //EJERCCIO 17
 
-Object dato = 25;
+/*Object dato = 25;
 
 if (dato is int)
 {
     Console.Write("el numero es entero");
 }
+*/
+
+/*//EJERCICIO 18
+
+Object dato = 25;
+
+if (dato is int numeroEntero && numeroEntero > 18)
+{
+    Console.Write("El numero es esntero y > 18");
+}
+
+*/
 
 
 
