@@ -516,10 +516,20 @@ if (dato3 is double)
 
 //EJERCICO 20
 
-
+/*
 for (int numero = 0; numero  <= 10; numero++) 
 { 
     Console.WriteLine(numero);
 }
+*/
 
+//EJERCICIO 21
+
+for (int i = 2; i <= 20; i++)
+{
+    if (i%2==0)
+    {
+        Console.WriteLine($"El numero {i} es par");
+    }
+}
 
