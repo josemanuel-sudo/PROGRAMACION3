@@ -319,26 +319,26 @@ default:
   */
 
 
- //EJECICIO 13
+//EJECICIO 13
 
-  /*   //PEDIMOS EL PRIMER NUMERO
- Console.Write("introduce el primer numero    ");
- int num1 = Convert.ToInt32(Console.ReadLine());
+/*   //PEDIMOS EL PRIMER NUMERO
+Console.Write("introduce el primer numero    ");
+int num1 = Convert.ToInt32(Console.ReadLine());
 
-      //PEDIOMOS EL SEGUNDO NUMERO 
-       Console.Write("introduce el primer segundo  ");
- int num2 = Convert.ToInt32(Console.ReadLine());
- 
- int oper = 1;
+    //PEDIOMOS EL SEGUNDO NUMERO 
+     Console.Write("introduce el primer segundo  ");
+int num2 = Convert.ToInt32(Console.ReadLine());
+
+int oper = 1;
 
 switch( oper )
 {
-    
+
 case 1:
-        Console.Write("   Suma:" +     (num1 + num2));
-        Console.Write("   resta:" +   (num1 - num2));
-        Console.Write("   multiplicacion:"     + (num1 * num2));
-        Console.Write("   division:" +     (num1 / num2));
+      Console.Write("   Suma:" +     (num1 + num2));
+      Console.Write("   resta:" +   (num1 - num2));
+      Console.Write("   multiplicacion:"     + (num1 * num2));
+      Console.Write("   division:" +     (num1 / num2));
 break;
 
 
@@ -346,80 +346,80 @@ break;
 /*
 
 
- //EJERCICIO 14
+//EJERCICIO 14
 
- Console.Write("introduce un numero de 1 al 12 :    ");
- int num = Convert.ToInt32(Console.ReadLine());
+Console.Write("introduce un numero de 1 al 12 :    ");
+int num = Convert.ToInt32(Console.ReadLine());
 
 switch (num)
 {
-    
+
 
 case 1:
 
-    Console.Write("ENERO");
-    break;
+  Console.Write("ENERO");
+  break;
 
 case 2:
 
- Console.Write("FEBRERO ");
+Console.Write("FEBRERO ");
 break;
 
 
 case 3:
 
-    Console.Write("MARZO ");
-    break;
+  Console.Write("MARZO ");
+  break;
 
 case 4:
 
-    Console.Write("ABRIL ");
-    break;
+  Console.Write("ABRIL ");
+  break;
 case 5:
-    Console.Write("MAYO ");
-    break;
+  Console.Write("MAYO ");
+  break;
 
 case 6:
-    Console.Write("JUNIO ");
-    break;
+  Console.Write("JUNIO ");
+  break;
 
 
 case 7:
-    Console.Write("JULIO ");
-    break;
+  Console.Write("JULIO ");
+  break;
 
 
 case 8:
 
-    Console.Write("AGOSTO  ");
-    break;
+  Console.Write("AGOSTO  ");
+  break;
 
 case 9:
 
-    Console.Write("SEPTIEMBRE");
-    break;
+  Console.Write("SEPTIEMBRE");
+  break;
 
 case 10:
 
- Console.Write("OCTIBRE ");
+Console.Write("OCTIBRE ");
 break;
 
 
 case 11:
 
-    Console.Write("NOVIEMBRE ");
-    break;
+  Console.Write("NOVIEMBRE ");
+  break;
 
 case 12:
 
-    Console.Write("DICIEMBRE");
-    break;
+  Console.Write("DICIEMBRE");
+  break;
 default:
 
-    
-    Console.Write("OPCION NO DISPONIBLE");
-    
-    break;
+
+  Console.Write("OPCION NO DISPONIBLE");
+
+  break;
 
 }
 
@@ -443,9 +443,9 @@ Console.Write(resultado); */
 
 
 
-    //EJERCICIO 16
+//EJERCICIO 16
 
- /* // PIDE UN NUMERO DE 1 AL 7 
+/* // PIDE UN NUMERO DE 1 AL 7 
 
 Console.Write("introduce un numero del 1 al 7     ");
 int numero = Convert.ToInt32(Console.ReadLine());
@@ -533,7 +533,7 @@ for (int numero = 0; numero  <= 10; numero++)
 //     }
 // }
 
- // EJERCCIO 22
+// EJERCCIO 22
 
 
 /*
@@ -546,7 +546,7 @@ for (int i = 10; i  >= 1; i--)
 //EJERCICIO 23
 
 //PEDIMOS UN NUMERO
-
+/*
 Console.Write("Introduce un número: ");
 int numero = Convert.ToInt32(Console.ReadLine());
 
@@ -554,3 +554,28 @@ for (int i = 1; i <= 10; i++)
 {
     Console.WriteLine(numero + " x " + i + " = " + (numero * i));
 }
+*/
+
+
+//EJERCICIO 24
+//Utiliza un for para calcular la suma de los números del 1 al 100.
+/*
+int sumaNumeros = 0;
+for (int i = 0;  i <= 100 ; i++)
+{
+   sumaNumeros = sumaNumeros +i;
+   Console.WriteLine($"{sumaNumeros}");
+}
+*/
+
+
+
+//EJERCICIO 25
+
+int contador = 1;
+
+while (contador <=10)
+{
+    Console.WriteLine(contador);
+    contador++;
+}   
