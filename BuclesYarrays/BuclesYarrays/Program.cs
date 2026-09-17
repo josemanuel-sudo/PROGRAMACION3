@@ -424,3 +424,19 @@ default:
 }
 
 */
+
+
+//EJECICIO 15
+
+//PEDIMOS UN NUMERO DEL 1 AL 3
+Console.Write("Itroduce un numero");
+int nume = Convert.ToInt32(Console. ReadLine());
+
+string resultado = nume switch 
+{ 
+1 => "Bajo", 
+2 => "Medio", 
+3 => "Alto" 
+};
+
+Console.Write(resultado);
