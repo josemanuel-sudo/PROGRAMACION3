@@ -491,6 +491,35 @@ if (dato is int numeroEntero && numeroEntero > 18)
 
 
 
+//EJERCICIO 19
 
+
+/*
+object dato1 = 25;
+object dato2 = "hola";
+object dato3 = 8.5;
+
+if (dato1 is int)
+{
+    Console.Write("el dato1 es entero     ");
+}
+if (dato2 is string)
+{
+    Console.Write("el dato2 es texto      ");
+}
+if (dato3 is double)
+{
+    Console.Write("el dato3 es double     ");
+}
+*/
+
+
+//EJERCICO 20
+
+
+for (int numero = 0; numero  <= 10; numero++) 
+{ 
+    Console.WriteLine(numero);
+}
 
 
