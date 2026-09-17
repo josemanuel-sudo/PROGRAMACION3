@@ -571,7 +571,7 @@ for (int i = 0;  i <= 100 ; i++)
 
 
 //EJERCICIO 25
-
+/*
 int contador = 1;
 
 while (contador <=10)
@@ -579,3 +579,14 @@ while (contador <=10)
     Console.WriteLine(contador);
     contador++;
 }   
+*/
+
+//EJERCICIO 26
+
+int contador = 10;
+
+while (contador >= 0)
+{
+     Console.WriteLine(contador);
+    contador--;
+}
