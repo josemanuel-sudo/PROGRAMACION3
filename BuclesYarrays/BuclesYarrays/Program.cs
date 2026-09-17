@@ -428,7 +428,7 @@ default:
 
 //EJECICIO 15
 
-//PEDIMOS UN NUMERO DEL 1 AL 3
+/* //PEDIMOS UN NUMERO DEL 1 AL 3
 Console.Write("Itroduce un numero");
 int nume = Convert.ToInt32(Console. ReadLine());
 
@@ -439,4 +439,46 @@ string resultado = nume switch
 3 => "Alto" 
 };
 
-Console.Write(resultado);
+Console.Write(resultado); */
+
+
+
+    //EJERCICIO 16
+
+ /* // PIDE UN NUMERO DE 1 AL 7 
+
+Console.Write("introduce un numero del 1 al 7     ");
+int numero = Convert.ToInt32(Console.ReadLine());
+
+string resultado = numero switch 
+{ 
+1 => "lun", 
+2 => "mar", 
+3 => "mie", 
+4 => "jue", 
+5 => "vie", 
+6 => "sab",
+7 => "dom",
+_=> "???"
+};
+
+Console.WriteLine(resultado);
+*/
+
+
+
+//EJERCCIO 17
+
+Object dato = 25;
+
+if (dato is int)
+{
+    Console.Write("el numero es entero");
+}
+
+
+
+
+
+
+
