@@ -525,11 +525,20 @@ for (int numero = 0; numero  <= 10; numero++)
 
 //EJERCICIO 21
 
-for (int i = 2; i <= 20; i++)
-{
-    if (i%2==0)
-    {
-        Console.WriteLine($"El numero {i} es par");
-    }
+// for (int i = 2; i <= 20; i++)
+// {
+//     if (i%2==0)
+//     {
+//         Console.WriteLine($"El numero {i} es par");
+//     }
+// }
+
+ // EJERCCIO 22
+
+
+
+for (int i = 10; i  >= 1; i--) 
+{ 
+    Console.WriteLine(i);
 }
 
