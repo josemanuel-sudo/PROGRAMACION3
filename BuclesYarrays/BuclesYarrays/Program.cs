@@ -582,7 +582,7 @@ while (contador <=10)
 */
 
 //EJERCICIO 26
-
+/*
 int contador = 10;
 
 while (contador >= 0)
@@ -590,3 +590,16 @@ while (contador >= 0)
      Console.WriteLine(contador);
     contador--;
 }
+
+*/
+
+//EJERCICIO 27
+
+int num = -1;
+
+while (num !=0)
+{
+    Console.Write("introduce el numero");
+    int num = Convert.ToInt32(Console.ReadLine());
+}
+    Console.Write("has puesto 0 se termina el programa");
